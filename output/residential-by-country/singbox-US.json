@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - lei",
-        "🇹🇷 土耳其 (Turkey) 02 - lei",
-        "🇹🇷 土耳其 (Turkey) 03 - lei"
+        "🇺🇸 美国 (United States) 01 (家宽) - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - lei",
-        "🇹🇷 土耳其 (Turkey) 02 - lei",
-        "🇹🇷 土耳其 (Turkey) 03 - lei"
+        "🇺🇸 美国 (United States) 01 (家宽) - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },

@@ -17,6 +17,25 @@ proxies:
   servername: bowandbead.com
   client-fingerprint: qq
 - name: 🇳🇴 NO 02 - lei
+  type: ss
+  server: 185.213.23.63
+  port: 990
+  cipher: chacha20-ietf-poly1305
+  password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=
+  udp: true
+- name: 🇳🇴 NO 03 - lei
+  type: vless
+  server: 151.242.168.125
+  port: 390
+  uuid: 7b363f9c-3df9-4b60-a789-9cd36be0bdfe
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 5RCgAVjaT7hwdVIKAEULswXGqR127ZOZV6X17nEhYk8
+  servername: bowandbead.com
+  client-fingerprint: qq
+- name: 🇳🇴 NO 04 - lei
   type: vless
   server: 151.242.168.125
   port: 390
@@ -35,6 +54,8 @@ proxy-groups:
   - AUTO
   - 🇳🇴 NO 01 - lei
   - 🇳🇴 NO 02 - lei
+  - 🇳🇴 NO 03 - lei
+  - 🇳🇴 NO 04 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -42,5 +63,7 @@ proxy-groups:
   proxies:
   - 🇳🇴 NO 01 - lei
   - 🇳🇴 NO 02 - lei
+  - 🇳🇴 NO 03 - lei
+  - 🇳🇴 NO 04 - lei
 rules:
 - MATCH,PROXIES

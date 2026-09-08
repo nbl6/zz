@@ -6,18 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - lei",
-        "🇹🇷 土耳其 (Turkey) 02 - lei",
-        "🇹🇷 土耳其 (Turkey) 03 - lei"
+        "🇮🇳 印度 (India) 01 - lei",
+        "🇮🇳 印度 (India) 02 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - lei",
-        "🇹🇷 土耳其 (Turkey) 02 - lei",
-        "🇹🇷 土耳其 (Turkey) 03 - lei"
+        "🇮🇳 印度 (India) 01 - lei",
+        "🇮🇳 印度 (India) 02 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
