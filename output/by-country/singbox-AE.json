@@ -6,14 +6,28 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - lei"
+        "🇦🇪 阿联酋 (UAE) 01 - lei",
+        "🇦🇪 阿联酋 (UAE) 02 - lei",
+        "🇦🇪 阿联酋 (UAE) 03 - lei",
+        "🇦🇪 阿联酋 (UAE) 04 - lei",
+        "🇦🇪 阿联酋 (UAE) 05 - lei",
+        "🇦🇪 阿联酋 (UAE) 06 - lei",
+        "🇦🇪 阿联酋 (UAE) 07 - lei",
+        "🇦🇪 阿联酋 (UAE) 08 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - lei"
+        "🇦🇪 阿联酋 (UAE) 01 - lei",
+        "🇦🇪 阿联酋 (UAE) 02 - lei",
+        "🇦🇪 阿联酋 (UAE) 03 - lei",
+        "🇦🇪 阿联酋 (UAE) 04 - lei",
+        "🇦🇪 阿联酋 (UAE) 05 - lei",
+        "🇦🇪 阿联酋 (UAE) 06 - lei",
+        "🇦🇪 阿联酋 (UAE) 07 - lei",
+        "🇦🇪 阿联酋 (UAE) 08 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
