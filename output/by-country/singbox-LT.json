@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - lei"
+        "🇱🇹 LT 01 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - lei"
+        "🇱🇹 LT 01 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
