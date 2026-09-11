@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇦🇪 阿联酋 (UAE) 01 - lei"
+        "🇦🇪 阿联酋 (UAE) 01 - lei",
+        "🇦🇪 阿联酋 (UAE) 02 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇦🇪 阿联酋 (UAE) 01 - lei"
+        "🇦🇪 阿联酋 (UAE) 01 - lei",
+        "🇦🇪 阿联酋 (UAE) 02 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
