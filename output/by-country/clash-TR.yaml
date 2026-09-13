@@ -15,18 +15,12 @@ proxies:
   servername: connect3.nyxserver.ir
 - name: 🇹🇷 土耳其 (Turkey) 02 - lei
   type: vless
-  server: shop.neexbyte.ir
-  port: 8443
-  uuid: 464bc502-f963-45b6-81e3-e33d18427506
+  server: 188.132.237.20
+  port: 2095
+  uuid: 3b9e513e-30d9-4ca8-8340-8f33fc6710de
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: shop.neexbyte.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shop.neexbyte.ir
 - name: 🇹🇷 土耳其 (Turkey) 03 - lei
   type: vless
   server: connect3.nyxserver.ir
@@ -36,6 +30,13 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: connect3.nyxserver.ir
+- name: 🇹🇷 土耳其 (Turkey) 04 - lei
+  type: ss
+  server: 185.39.204.3
+  port: 8098
+  cipher: chacha20-ietf-poly1305
+  password: PluSKSrbtxTvlVv7BOUwn4
+  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -44,6 +45,7 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - lei
   - 🇹🇷 土耳其 (Turkey) 02 - lei
   - 🇹🇷 土耳其 (Turkey) 03 - lei
+  - 🇹🇷 土耳其 (Turkey) 04 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -52,5 +54,6 @@ proxy-groups:
   - 🇹🇷 土耳其 (Turkey) 01 - lei
   - 🇹🇷 土耳其 (Turkey) 02 - lei
   - 🇹🇷 土耳其 (Turkey) 03 - lei
+  - 🇹🇷 土耳其 (Turkey) 04 - lei
 rules:
 - MATCH,PROXIES
