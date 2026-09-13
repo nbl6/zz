@@ -6,26 +6,18 @@ log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - lei
   type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  server: 152.228.162.19
+  port: 80
+  uuid: 5ce84688-f535-46ad-a512-37b17becf6ea
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /vws/
+    path: /vless/
     headers:
-      Host: 149.202.58.99
+      Host: akamaized.net
 - name: 🇫🇷 法国 (France) 02 - lei
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-  udp: true
-- name: 🇫🇷 法国 (France) 03 - lei
   type: vless
   server: 149.202.58.99
   port: 443
@@ -39,20 +31,16 @@ proxies:
     path: /vws/
     headers:
       Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 04 - lei
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
+- name: 🇫🇷 法国 (France) 03 - lei
+  type: ss
+  server: 51.83.192.80
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 05 - lei
+- name: 🇫🇷 法国 (France) 04 - lei
   type: vless
-  server: 51.38.82.1
+  server: gr068.techinyab.ir
   port: 443
   uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
   udp: true
@@ -61,10 +49,24 @@ proxies:
   reality-opts:
     public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
   servername: play.google.com
-  client-fingerprint: random
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 05 - lei
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
 - name: 🇫🇷 法国 (France) 06 - lei
   type: vmess
-  server: 162.19.204.71
+  server: 141.95.65.9
   port: 1234
   uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
   alterId: 0
@@ -74,52 +76,13 @@ proxies:
   skip-cert-verify: true
   servername: ''
 - name: 🇫🇷 法国 (France) 07 - lei
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  type: ss
+  server: 51.83.192.80
+  port: 8388
+  cipher: aes-256-gcm
+  password: itzvpn@321
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
 - name: 🇫🇷 法国 (France) 08 - lei
-  type: ss
-  server: 51.83.192.80
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇫🇷 法国 (France) 09 - lei
-  type: ss
-  server: 51.83.192.80
-  port: 8388
-  cipher: aes-256-gcm
-  password: itzvpn@321
-  udp: true
-- name: 🇫🇷 法国 (France) 10 - lei
-  type: ss
-  server: 83.171.225.55
-  port: 1443
-  cipher: chacha20-ietf-poly1305
-  password: ZjAxZ
-  udp: true
-- name: 🇫🇷 法国 (France) 11 - lei
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 12 - lei
   type: vless
   server: 45.144.28.39
   port: 2096
@@ -132,20 +95,50 @@ proxies:
     path: /
     headers:
       Host: usejh2.neobo-tooth.ru
-- name: 🇫🇷 法国 (France) 13 - lei
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
+- name: 🇫🇷 法国 (France) 09 - lei
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
-- name: 🇫🇷 法国 (France) 14 - lei
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 10 - lei
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 11 - lei
   type: ss
   server: 20.111.9.76
   port: 59380
   cipher: chacha20-ietf-poly1305
   password: DdhrBvEX2dHRjaakWHBZUa
   udp: true
+- name: 🇫🇷 法国 (France) 12 - lei
+  type: vless
+  server: 51.38.82.1
+  port: 443
+  uuid: 9343f183-7a16-4bdd-9c65-b0c21feca40b
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M
+  servername: play.google.com
+  client-fingerprint: firefox
 proxy-groups:
 - name: PROXIES
   type: select
@@ -163,8 +156,6 @@ proxy-groups:
   - 🇫🇷 法国 (France) 10 - lei
   - 🇫🇷 法国 (France) 11 - lei
   - 🇫🇷 法国 (France) 12 - lei
-  - 🇫🇷 法国 (France) 13 - lei
-  - 🇫🇷 法国 (France) 14 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -182,7 +173,5 @@ proxy-groups:
   - 🇫🇷 法国 (France) 10 - lei
   - 🇫🇷 法国 (France) 11 - lei
   - 🇫🇷 法国 (France) 12 - lei
-  - 🇫🇷 法国 (France) 13 - lei
-  - 🇫🇷 法国 (France) 14 - lei
 rules:
 - MATCH,PROXIES

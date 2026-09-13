@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - lei
   type: vless
-  server: uae.unixzone.us
+  server: 84.235.244.108
   port: 22573
   uuid: 39947382-3212-41c9-bc3a-589574ac8b23
   udp: true
@@ -43,30 +43,6 @@ proxies:
     path: /
     headers:
       Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 04 - lei
-  type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 04dc7739-5b33-49c9-bf16-3c6919a6498f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 05 - lei
-  type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -75,8 +51,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - lei
   - 🇦🇪 阿联酋 (UAE) 02 - lei
   - 🇦🇪 阿联酋 (UAE) 03 - lei
-  - 🇦🇪 阿联酋 (UAE) 04 - lei
-  - 🇦🇪 阿联酋 (UAE) 05 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -85,7 +59,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 01 - lei
   - 🇦🇪 阿联酋 (UAE) 02 - lei
   - 🇦🇪 阿联酋 (UAE) 03 - lei
-  - 🇦🇪 阿联酋 (UAE) 04 - lei
-  - 🇦🇪 阿联酋 (UAE) 05 - lei
 rules:
 - MATCH,PROXIES
