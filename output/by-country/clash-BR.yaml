@@ -1,0 +1,353 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: rule
+log-level: info
+proxies:
+- name: 🇧🇷 BR 01 - lei
+  type: vless
+  server: 172.67.67.241
+  port: 2053
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🇧🇷 BR 02 - lei
+  type: vless
+  server: 104.21.91.57
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 03 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 04 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 05 - lei
+  type: vless
+  server: 172.67.77.77
+  port: 443
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: mianfei-73q.pages.dev
+- name: 🇧🇷 BR 06 - lei
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 07 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 08 - lei
+  type: vless
+  server: 172.67.167.120
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 09 - lei
+  type: vless
+  server: 172.67.149.222
+  port: 443
+  uuid: 995d8fdb-36e0-cf6e-e9e8-88ead972fce2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: eagle-panel.roya6777.workers.dev
+  network: ws
+  ws-opts:
+    path: /ws/995d8fdb-36e0-cf6e-e9e8-88ead972fce2
+    headers:
+      Host: eagle-panel.roya6777.workers.dev
+- name: 🇧🇷 BR 10 - lei
+  type: vless
+  server: 104.21.98.146
+  port: 8443
+  uuid: 50414e45-4c5f-5a45-5553-48493148ec15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cgzdynepurqs.mercury061.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/PANEL_ZEUS/48493148ec15
+    headers:
+      Host: cgzdynepurqs.mercury061.workers.dev
+- name: 🇧🇷 BR 11 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 12 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 13 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 14 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 15 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 16 - lei
+  type: vless
+  server: 104.21.91.57
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 17 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 18 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 19 - lei
+  type: vless
+  server: 104.21.74.189
+  port: 8880
+  uuid: 94977b19-6720-48a6-92fd-00238757ea30
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: fragrant-credit-c4cf.148-e68.workers.dev
+- name: 🇧🇷 BR 20 - lei
+  type: vless
+  server: fq.jp188.dpdns.org
+  port: 443
+  uuid: 42c62a5a-cd31-4551-80ef-908732370287
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fq.jp188.dpdns.org
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: fq.jp188.dpdns.org
+- name: 🇧🇷 BR 21 - lei
+  type: vless
+  server: 104.21.88.4
+  port: 443
+  uuid: 995d8fdb-36e0-cf6e-e9e8-88ead972fce2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: eagle-panel.roya6777.workers.dev
+  network: ws
+  ws-opts:
+    path: /ws/995d8fdb-36e0-cf6e-e9e8-88ead972fce2
+    headers:
+      Host: eagle-panel.roya6777.workers.dev
+proxy-groups:
+- name: PROXIES
+  type: select
+  proxies:
+  - AUTO
+  - 🇧🇷 BR 01 - lei
+  - 🇧🇷 BR 02 - lei
+  - 🇧🇷 BR 03 - lei
+  - 🇧🇷 BR 04 - lei
+  - 🇧🇷 BR 05 - lei
+  - 🇧🇷 BR 06 - lei
+  - 🇧🇷 BR 07 - lei
+  - 🇧🇷 BR 08 - lei
+  - 🇧🇷 BR 09 - lei
+  - 🇧🇷 BR 10 - lei
+  - 🇧🇷 BR 11 - lei
+  - 🇧🇷 BR 12 - lei
+  - 🇧🇷 BR 13 - lei
+  - 🇧🇷 BR 14 - lei
+  - 🇧🇷 BR 15 - lei
+  - 🇧🇷 BR 16 - lei
+  - 🇧🇷 BR 17 - lei
+  - 🇧🇷 BR 18 - lei
+  - 🇧🇷 BR 19 - lei
+  - 🇧🇷 BR 20 - lei
+  - 🇧🇷 BR 21 - lei
+- name: AUTO
+  type: url-test
+  url: https://www.google.com/generate_204
+  interval: 300
+  proxies:
+  - 🇧🇷 BR 01 - lei
+  - 🇧🇷 BR 02 - lei
+  - 🇧🇷 BR 03 - lei
+  - 🇧🇷 BR 04 - lei
+  - 🇧🇷 BR 05 - lei
+  - 🇧🇷 BR 06 - lei
+  - 🇧🇷 BR 07 - lei
+  - 🇧🇷 BR 08 - lei
+  - 🇧🇷 BR 09 - lei
+  - 🇧🇷 BR 10 - lei
+  - 🇧🇷 BR 11 - lei
+  - 🇧🇷 BR 12 - lei
+  - 🇧🇷 BR 13 - lei
+  - 🇧🇷 BR 14 - lei
+  - 🇧🇷 BR 15 - lei
+  - 🇧🇷 BR 16 - lei
+  - 🇧🇷 BR 17 - lei
+  - 🇧🇷 BR 18 - lei
+  - 🇧🇷 BR 19 - lei
+  - 🇧🇷 BR 20 - lei
+  - 🇧🇷 BR 21 - lei
+rules:
+- MATCH,PROXIES

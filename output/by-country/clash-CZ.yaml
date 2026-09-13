@@ -6,45 +6,32 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - lei
   type: vless
-  server: 104.18.47.113
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  server: 103.119.18.30
+  port: 443
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: mianfei-73q.pages.dev
   network: ws
   ws-opts:
-    path: /?ed=2560security=tls
+    path: /proxyip=154.3.33.43
     headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+      Host: mianfei-73q.pages.dev
 - name: 🇨🇿 CZ 02 - lei
   type: vless
-  server: 104.21.78.225
+  server: 103.119.18.30
   port: 443
-  uuid: 4ce7cb8a-f9b1-4bfa-a80d-9e168c61a633
+  uuid: 8666ab45-8e3d-4988-841b-2561d91e32d5
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: curly-night-6928.ggdhchjk.workers.dev
+  servername: mianfei-73q.pages.dev
   network: ws
   ws-opts:
-    path: /sync
+    path: /proxyip=154.3.33.43
     headers:
-      Host: curly-night-6928.ggdhchjk.workers.dev
-- name: 🇨🇿 CZ 03 - lei
-  type: vless
-  server: 172.67.203.158
-  port: 443
-  uuid: 911b84e1-d046-4fbf-bfc0-c168791115ef
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
-  network: ws
-  ws-opts:
-    path: /vl/YCNmDFbqMu7cgTzgsfEWGtBD8kR
-    headers:
-      Host: 12ygbae0k3gn0z0f.mehrshadhaddadi8.workers.dev
+      Host: mianfei-73q.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -52,7 +39,6 @@ proxy-groups:
   - AUTO
   - 🇨🇿 CZ 01 - lei
   - 🇨🇿 CZ 02 - lei
-  - 🇨🇿 CZ 03 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -60,6 +46,5 @@ proxy-groups:
   proxies:
   - 🇨🇿 CZ 01 - lei
   - 🇨🇿 CZ 02 - lei
-  - 🇨🇿 CZ 03 - lei
 rules:
 - MATCH,PROXIES
