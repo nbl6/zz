@@ -6,7 +6,23 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - lei
   type: vmess
-  server: 47.83.19.148
+  server: www.shopify.com
+  port: 443
+  uuid: 3aa71202-a099-49c1-99fc-6662f3335369
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: yoga-suggesting-recording-calls.trycloudflare.com
+  network: ws
+  ws-opts:
+    path: /3aa71202-a099-49c1-99fc-6662f3335369-vm
+    headers:
+      Host: yoga-suggesting-recording-calls.trycloudflare.com
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - lei
+  type: vmess
+  server: ejomsxptp19apygl.v.3dns.vip
   port: 443
   uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
@@ -14,13 +30,13 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 6JDvArazgU3qQR6Q.v.3dns.vip
+  servername: ejOMsxPtP19APyGL.v.3dns.vip
   network: ws
   ws-opts:
     path: /ws-vmess
     headers:
-      Host: 6JDvArazgU3qQR6Q.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - lei
+      Host: ejOMsxPtP19APyGL.v.3dns.vip
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - lei
   type: vless
   server: 47.238.210.5
   port: 13779
@@ -32,72 +48,11 @@ proxies:
     public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
   servername: tesla.com
   client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - lei
-  type: vless
-  server: 172.64.32.108
-  port: 8080
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
 - name: 🇭🇰 中国香港 (Hong Kong) 04 - lei
-  type: vmess
-  server: 47.83.207.148
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: VAH4URdZL3jDX5r2.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: VAH4URdZL3jDX5r2.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - lei
-  type: vmess
-  server: 93ucrn4i0pffuabk.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 93ucrn4i0pffuabk.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: 93ucrn4i0pffuabk.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - lei
-  type: vmess
-  server: i2psm3knof5qjjix.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - lei
   type: vmess
   server: 8.218.184.4
   port: 443
-  uuid: f23bb427-c1f9-4373-876c-2f43e9f790f3
+  uuid: f23bb427c1f94373876c2f43e9f790f3
   alterId: 0
   cipher: auto
   udp: true
@@ -109,68 +64,7 @@ proxies:
     path: /ws-vmess
     headers:
       Host: NYcQg19zkwaCPM1B.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - lei
-  type: vmess
-  server: m01c7b2z26dtqgee.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: M01c7B2z26DtQGEe.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: M01c7B2z26DtQGEe.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - lei
-  type: vless
-  server: 162.159.24.131
-  port: 2052
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🇭🇰 中国香港 (Hong Kong) 10 - lei
-  type: vmess
-  server: 8.217.229.155
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: qTKDR8jXE3wEFxJM.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: qTKDR8jXE3wEFxJM.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 11 - lei
-  type: vmess
-  server: wwafj5lhl6bi8au9.v.3dns.vip
-  port: 443
-  uuid: f23bb427c1f94373876c2f43e9f790f3
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wwafj5lhl6bi8au9.v.3dns.vip
-  network: ws
-  ws-opts:
-    path: /ws-vmess
-    headers:
-      Host: wwafj5lhl6bi8au9.v.3dns.vip
-- name: 🇭🇰 中国香港 (Hong Kong) 12 - lei
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - lei
   type: vmess
   server: 47.83.19.148
   port: 443
@@ -196,13 +90,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 03 - lei
   - 🇭🇰 中国香港 (Hong Kong) 04 - lei
   - 🇭🇰 中国香港 (Hong Kong) 05 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 06 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 07 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 08 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 09 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 10 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 11 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 12 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -213,12 +100,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 03 - lei
   - 🇭🇰 中国香港 (Hong Kong) 04 - lei
   - 🇭🇰 中国香港 (Hong Kong) 05 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 06 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 07 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 08 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 09 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 10 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 11 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 12 - lei
 rules:
 - MATCH,PROXIES
