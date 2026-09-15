@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇨🇾 CY 01 - lei
   type: vless
-  server: 195.26.229.156
+  server: 195.26.229.157
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -19,39 +19,6 @@ proxies:
     headers:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 02 - lei
-  type: ss
-  server: 132.243.255.3
-  port: 7018
-  cipher: aes-256-gcm
-  password: 78235e7dc55e9ad1
-  udp: true
-- name: 🇨🇾 CY 03 - lei
-  type: vless
-  server: 195.26.229.235
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 04 - lei
-  type: vless
-  server: 194.76.154.31
-  port: 40443
-  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
-  servername: deepl.com
-  client-fingerprint: firefox
-- name: 🇨🇾 CY 05 - lei
   type: vless
   server: 194.76.154.31
   port: 40443
@@ -63,58 +30,19 @@ proxies:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
   client-fingerprint: qq
-- name: 🇨🇾 CY 06 - lei
+- name: 🇨🇾 CY 03 - lei
   type: vless
-  server: 195.26.229.131
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 07 - lei
-  type: vless
-  server: 195.26.229.120
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 08 - lei
-  type: vless
-  server: cy2.zuoai.cf
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cffp=chrome
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇨🇾 CY 09 - lei
-  type: vless
-  server: 45.9.2.171
-  port: 8443
-  uuid: 167610e4-bcaf-4074-bc2d-0c08dc4ea294
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: torr.wlrus.cfd
-- name: 🇨🇾 CY 10 - lei
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 04 - lei
   type: vless
   server: 195.26.229.222
   port: 443
@@ -128,9 +56,77 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
+- name: 🇨🇾 CY 05 - lei
+  type: vless
+  server: 195.26.229.131
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇨🇾 CY 06 - lei
+  type: vless
+  server: 195.26.229.156
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇨🇾 CY 07 - lei
+  type: ss
+  server: 132.243.255.3
+  port: 7018
+  cipher: aes-256-gcm
+  password: 78235e7dc55e9ad1
+  udp: true
+- name: 🇨🇾 CY 08 - lei
+  type: vless
+  server: 194.59.245.250
+  port: 40443
+  uuid: e4371581-c418-4770-b09a-d630f18290a6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: WFvn-RRJzpt2qV4xwj_R93gDr6dduIjkQKO3De3Y2Hc
+  servername: deepl.com
+  client-fingerprint: chrome
+- name: 🇨🇾 CY 09 - lei
+  type: vless
+  server: 45.9.2.171
+  port: 8443
+  uuid: 167610e4-bcaf-4074-bc2d-0c08dc4ea294
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: torr.wlrus.cfd
+- name: 🇨🇾 CY 10 - lei
+  type: vless
+  server: 194.59.245.250
+  port: 40443
+  uuid: e4371581-c418-4770-b09a-d630f18290a6
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: WFvn-RRJzpt2qV4xwj_R93gDr6dduIjkQKO3De3Y2Hc
+  servername: deepl.com
+  client-fingerprint: chrome
 - name: 🇨🇾 CY 11 - lei
   type: vless
-  server: 195.26.229.32
+  server: 195.26.229.86
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -153,10 +149,10 @@ proxies:
   reality-opts:
     public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
   servername: deepl.com
-  client-fingerprint: chrome
+  client-fingerprint: qq
 - name: 🇨🇾 CY 13 - lei
   type: vless
-  server: 195.26.229.127
+  server: 195.26.229.120
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -170,7 +166,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 14 - lei
   type: vless
-  server: 195.26.229.157
+  server: 195.26.229.148
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -184,19 +180,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇨🇾 CY 15 - lei
   type: vless
-  server: 194.59.245.250
-  port: 40443
-  uuid: e4371581-c418-4770-b09a-d630f18290a6
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: WFvn-RRJzpt2qV4xwj_R93gDr6dduIjkQKO3De3Y2Hc
-  servername: deepl.com
-  client-fingerprint: chrome
-- name: 🇨🇾 CY 16 - lei
-  type: vless
-  server: 195.26.229.148
+  server: 195.26.229.127
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -208,9 +192,47 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
+- name: 🇨🇾 CY 16 - lei
+  type: vless
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: chrome
 - name: 🇨🇾 CY 17 - lei
   type: vless
-  server: 195.26.229.86
+  server: 194.76.154.31
+  port: 40443
+  uuid: 9f0baff8-bdee-4de9-9515-bcc4932b41fa
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ
+  servername: deepl.com
+  client-fingerprint: qq
+- name: 🇨🇾 CY 18 - lei
+  type: vless
+  server: 195.26.229.32
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇨🇾 CY 19 - lei
+  type: vless
+  server: 195.26.229.235
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -244,6 +266,8 @@ proxy-groups:
   - 🇨🇾 CY 15 - lei
   - 🇨🇾 CY 16 - lei
   - 🇨🇾 CY 17 - lei
+  - 🇨🇾 CY 18 - lei
+  - 🇨🇾 CY 19 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -266,5 +290,7 @@ proxy-groups:
   - 🇨🇾 CY 15 - lei
   - 🇨🇾 CY 16 - lei
   - 🇨🇾 CY 17 - lei
+  - 🇨🇾 CY 18 - lei
+  - 🇨🇾 CY 19 - lei
 rules:
 - MATCH,PROXIES
