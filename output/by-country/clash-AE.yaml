@@ -6,16 +6,18 @@ log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - lei
   type: vless
-  server: 31.58.181.88
-  port: 8443
-  uuid: 5059a06c-ed43-48d8-a276-b202c55019e8
+  server: 151.242.160.148
+  port: 8090
+  uuid: 818eaf39-544f-4d1d-977e-87be7e33eecf
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: AERbWB2uslqIzm1hSlOZZEH3Y9qg_zlWRRyLfh97kXc
-  servername: tradingview.com
-  client-fingerprint: firefox
+  servername: askuhgfdsg.space.coupons
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: askuhgfdsg.space.coupons
 - name: 🇦🇪 阿联酋 (UAE) 02 - lei
   type: vless
   server: 84.235.244.108
@@ -31,34 +33,23 @@ proxies:
       Host: uae.unixzone.us
 - name: 🇦🇪 阿联酋 (UAE) 03 - lei
   type: vless
-  server: 89.125.147.199
-  port: 443
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
+  server: 151.242.160.148
+  port: 8090
+  uuid: 818eaf39-544f-4d1d-977e-87be7e33eecf
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
-  servername: maps.apple.com
-  client-fingerprint: firefox
+  servername: askuhgfdsg.space.coupons
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: askuhgfdsg.space.coupons
 - name: 🇦🇪 阿联酋 (UAE) 04 - lei
   type: vless
-  server: uae.unixzone.us
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
-- name: 🇦🇪 阿联酋 (UAE) 05 - lei
-  type: vless
   server: 89.125.147.199
   port: 443
-  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
   tls: true
   skip-cert-verify: true
@@ -66,20 +57,7 @@ proxies:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
   client-fingerprint: firefox
-- name: 🇦🇪 阿联酋 (UAE) 06 - lei
-  type: vless
-  server: cdn.snobvpn.online
-  port: 80
-  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /snob-ws
-    headers:
-      Host: cdn.snobvpn.online
-- name: 🇦🇪 阿联酋 (UAE) 07 - lei
+- name: 🇦🇪 阿联酋 (UAE) 05 - lei
   type: vless
   server: 89.125.147.199
   port: 443
@@ -91,19 +69,18 @@ proxies:
     public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
   servername: maps.apple.com
   client-fingerprint: random
-- name: 🇦🇪 阿联酋 (UAE) 08 - lei
+- name: 🇦🇪 阿联酋 (UAE) 06 - lei
   type: vless
-  server: 84.235.244.108
-  port: 22573
-  uuid: 39947382-3212-41c9-bc3a-589574ac8b23
+  server: 89.125.147.199
+  port: 443
+  uuid: cabd9303-ae32-4d25-86b9-26b312d0f044
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: uae.unixzone.us
+  reality-opts:
+    public-key: iQJ8UdFw-lUWa9mXugescYHkmwNH96nuj_z-LAZvfxg
+  servername: maps.apple.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -115,8 +92,6 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - lei
   - 🇦🇪 阿联酋 (UAE) 05 - lei
   - 🇦🇪 阿联酋 (UAE) 06 - lei
-  - 🇦🇪 阿联酋 (UAE) 07 - lei
-  - 🇦🇪 阿联酋 (UAE) 08 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -128,7 +103,5 @@ proxy-groups:
   - 🇦🇪 阿联酋 (UAE) 04 - lei
   - 🇦🇪 阿联酋 (UAE) 05 - lei
   - 🇦🇪 阿联酋 (UAE) 06 - lei
-  - 🇦🇪 阿联酋 (UAE) 07 - lei
-  - 🇦🇪 阿联酋 (UAE) 08 - lei
 rules:
 - MATCH,PROXIES
