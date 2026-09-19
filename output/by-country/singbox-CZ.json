@@ -8,7 +8,9 @@
         "auto",
         "🇨🇿 CZ 01 - lei",
         "🇨🇿 CZ 02 - lei",
-        "🇨🇿 CZ 03 - lei"
+        "🇨🇿 CZ 03 - lei",
+        "🇨🇿 CZ 04 - lei",
+        "🇨🇿 CZ 05 - lei"
       ]
     },
     {
@@ -17,7 +19,9 @@
       "outbounds": [
         "🇨🇿 CZ 01 - lei",
         "🇨🇿 CZ 02 - lei",
-        "🇨🇿 CZ 03 - lei"
+        "🇨🇿 CZ 03 - lei",
+        "🇨🇿 CZ 04 - lei",
+        "🇨🇿 CZ 05 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
