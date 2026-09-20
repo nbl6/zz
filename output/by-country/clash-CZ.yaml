@@ -6,7 +6,21 @@ log-level: info
 proxies:
 - name: 🇨🇿 CZ 01 - lei
   type: vless
-  server: 195.85.23.111
+  server: 195.85.23.29
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 02 - lei
+  type: vless
+  server: 195.85.23.248
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -18,20 +32,90 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇨🇿 CZ 02 - lei
+- name: 🇨🇿 CZ 03 - lei
   type: vless
-  server: 172.67.145.21
+  server: 195.85.23.47
   port: 443
-  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: INDEX.Arcane509.Workers.DEV
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 04 - lei
+  type: vless
+  server: 195.85.23.88
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: index.arcane509.workers.dev
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 05 - lei
+  type: vless
+  server: 195.85.23.252
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 06 - lei
+  type: vless
+  server: 195.85.23.219
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 07 - lei
+  type: vless
+  server: 195.85.23.47
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇨🇿 CZ 08 - lei
+  type: vless
+  server: 195.85.23.45
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +123,12 @@ proxy-groups:
   - AUTO
   - 🇨🇿 CZ 01 - lei
   - 🇨🇿 CZ 02 - lei
+  - 🇨🇿 CZ 03 - lei
+  - 🇨🇿 CZ 04 - lei
+  - 🇨🇿 CZ 05 - lei
+  - 🇨🇿 CZ 06 - lei
+  - 🇨🇿 CZ 07 - lei
+  - 🇨🇿 CZ 08 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +136,11 @@ proxy-groups:
   proxies:
   - 🇨🇿 CZ 01 - lei
   - 🇨🇿 CZ 02 - lei
+  - 🇨🇿 CZ 03 - lei
+  - 🇨🇿 CZ 04 - lei
+  - 🇨🇿 CZ 05 - lei
+  - 🇨🇿 CZ 06 - lei
+  - 🇨🇿 CZ 07 - lei
+  - 🇨🇿 CZ 08 - lei
 rules:
 - MATCH,PROXIES
