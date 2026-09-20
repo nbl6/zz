@@ -5,6 +5,13 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - lei
+  type: ss
+  server: 141.164.45.187
+  port: 5498
+  cipher: aes-256-gcm
+  password: lGqs95QkFHo2NV
+  udp: true
+- name: 🇰🇷 韩国 (South Korea) 02 - lei
   type: vless
   server: 34.64.149.137
   port: 443
@@ -16,9 +23,35 @@ proxies:
     public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
   servername: www.cloudflare.com
   client-fingerprint: chrome
-- name: 🇰🇷 韩国 (South Korea) 02 - lei
+- name: 🇰🇷 韩国 (South Korea) 03 - lei
   type: vless
-  server: 104.18.38.47
+  server: 188.114.97.6
+  port: 443
+  uuid: 0ed342c3-eb45-4d63-83a1-697252636ca9
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: yellow-hall-d482.260-d22.workers.dev
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: yellow-hall-d482.260-d22.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 04 - lei
+  type: vless
+  server: 34.64.149.137
+  port: 443
+  uuid: 700a7a0e-3f27-406c-81d1-aa1abe411af8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: kqIDhDhYFrXD-1GeurwjzFwbB0zWipgWmcbADXwmyy8
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇰🇷 韩国 (South Korea) 05 - lei
+  type: vless
+  server: 104.16.150.108
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -30,21 +63,7 @@ proxies:
     path: ?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 03 - lei
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇰🇷 韩国 (South Korea) 04 - lei
+- name: 🇰🇷 韩国 (South Korea) 06 - lei
   type: vless
   server: 151.245.106.49
   port: 2053
@@ -56,28 +75,113 @@ proxies:
     public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
   servername: www.cloudflare.com
   client-fingerprint: random
-- name: 🇰🇷 韩国 (South Korea) 05 - lei
+- name: 🇰🇷 韩国 (South Korea) 07 - lei
+  type: vless
+  server: 172.66.170.53
+  port: 8880
+  uuid: 38ede46b-d237-4c76-9de1-a10738642adc
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: summer-hat-ba5c.430.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 08 - lei
+  type: vless
+  server: 188.114.97.6
+  port: 2087
+  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 09 - lei
+  type: vless
+  server: 172.64.88.251
+  port: 8880
+  uuid: 87a5d3eb-afd4-4193-9787-c54ef7c26c8c
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.KR.CMLiussss.net
+    headers:
+      Host: patient-cake-39c7.44-e7a.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 10 - lei
   type: ss
   server: 141.164.45.187
   port: 9090
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: 🇰🇷 韩国 (South Korea) 06 - lei
+- name: 🇰🇷 韩国 (South Korea) 11 - lei
   type: vless
-  server: 110.10.178.240
+  server: 23.227.39.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime17.workers.dev
+- name: 🇰🇷 韩国 (South Korea) 12 - lei
+  type: vless
+  server: 172.64.146.228
   port: 443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  uuid: f5851a6e-72da-4e4e-99b2-c79629149503
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
+  servername: d24e02c6.69lover.site
   network: ws
   ws-opts:
-    path: /albums?ed=2560fp=chrome
+    path: /api/v2/e916944b060a3543/stream
     headers:
-      Host: cdn8848.776676.xyz
-- name: 🇰🇷 韩国 (South Korea) 07 - lei
+      Host: d24e02c6.69lover.site
+- name: 🇰🇷 韩国 (South Korea) 13 - lei
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 14 - lei
+  type: vless
+  server: 151.245.106.49
+  port: 2053
+  uuid: a2de9567-9646-45a9-a410-7303a43bdb6c
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: F6C33iIbfmt1mUsuLTarIC8ygdHKMqsaGvrSQltyxUo
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇰🇷 韩国 (South Korea) 15 - lei
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 16 - lei
   type: vless
   server: 104.18.42.54
   port: 2087
@@ -91,6 +195,43 @@ proxies:
     path: ?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
+- name: 🇰🇷 韩国 (South Korea) 17 - lei
+  type: vmess
+  server: 140.238.2.250
+  port: 443
+  uuid: 41a7089a-040b-4538-8b8d-010902405bde
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇰🇷 韩国 (South Korea) 18 - lei
+  type: vless
+  server: 134.185.99.52
+  port: 443
+  uuid: 3db635e4-f9ec-42d6-8aba-e23df8b0e6da
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: mia9.pages.dev
+  network: ws
+  ws-opts:
+    path: /TG:@MiaChatChannel
+    headers:
+      Host: mia9.pages.dev
+- name: 🇰🇷 韩国 (South Korea) 19 - lei
+  type: vless
+  server: 172.67.174.37
+  port: 8880
+  uuid: 0787cfdb-9930-4abb-8419-c1b96c3ef628
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: red-snowflake-c399.12-ee1.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -103,6 +244,18 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 05 - lei
   - 🇰🇷 韩国 (South Korea) 06 - lei
   - 🇰🇷 韩国 (South Korea) 07 - lei
+  - 🇰🇷 韩国 (South Korea) 08 - lei
+  - 🇰🇷 韩国 (South Korea) 09 - lei
+  - 🇰🇷 韩国 (South Korea) 10 - lei
+  - 🇰🇷 韩国 (South Korea) 11 - lei
+  - 🇰🇷 韩国 (South Korea) 12 - lei
+  - 🇰🇷 韩国 (South Korea) 13 - lei
+  - 🇰🇷 韩国 (South Korea) 14 - lei
+  - 🇰🇷 韩国 (South Korea) 15 - lei
+  - 🇰🇷 韩国 (South Korea) 16 - lei
+  - 🇰🇷 韩国 (South Korea) 17 - lei
+  - 🇰🇷 韩国 (South Korea) 18 - lei
+  - 🇰🇷 韩国 (South Korea) 19 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -115,5 +268,17 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 05 - lei
   - 🇰🇷 韩国 (South Korea) 06 - lei
   - 🇰🇷 韩国 (South Korea) 07 - lei
+  - 🇰🇷 韩国 (South Korea) 08 - lei
+  - 🇰🇷 韩国 (South Korea) 09 - lei
+  - 🇰🇷 韩国 (South Korea) 10 - lei
+  - 🇰🇷 韩国 (South Korea) 11 - lei
+  - 🇰🇷 韩国 (South Korea) 12 - lei
+  - 🇰🇷 韩国 (South Korea) 13 - lei
+  - 🇰🇷 韩国 (South Korea) 14 - lei
+  - 🇰🇷 韩国 (South Korea) 15 - lei
+  - 🇰🇷 韩国 (South Korea) 16 - lei
+  - 🇰🇷 韩国 (South Korea) 17 - lei
+  - 🇰🇷 韩国 (South Korea) 18 - lei
+  - 🇰🇷 韩国 (South Korea) 19 - lei
 rules:
 - MATCH,PROXIES
