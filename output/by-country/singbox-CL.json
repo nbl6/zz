@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇻🇳 VN 01 - lei"
+        "🇨🇱 CL 01 - lei",
+        "🇨🇱 CL 02 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇻🇳 VN 01 - lei"
+        "🇨🇱 CL 01 - lei",
+        "🇨🇱 CL 02 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
