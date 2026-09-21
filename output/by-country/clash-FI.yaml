@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - lei
   type: vless
-  server: 212.104.128.27
+  server: 212.104.128.0
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -34,7 +34,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 03 - lei
   type: vless
-  server: 212.104.128.152
+  server: 212.104.128.139
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -48,7 +48,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 04 - lei
   type: vless
-  server: 212.104.128.217
+  server: 212.104.128.106
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -62,7 +62,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 05 - lei
   type: vless
-  server: 212.104.128.206
+  server: 212.104.128.0
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -76,7 +76,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 06 - lei
   type: vless
-  server: 212.104.128.106
+  server: 212.104.128.45
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -90,7 +90,7 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 07 - lei
   type: vless
-  server: 212.104.128.45
+  server: 212.104.128.68
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -104,18 +104,6 @@ proxies:
       Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 08 - lei
   type: vless
-  server: 95.216.27.15
-  port: 2053
-  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
-  servername: www.google.com
-  client-fingerprint: random
-- name: 🇫🇮 FI 09 - lei
-  type: vless
   server: 212.104.128.217
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
@@ -125,10 +113,10 @@ proxies:
   servername: xi.tbv.ccwu.cc
   network: ws
   ws-opts:
-    path: /proxyip=us.xiabibi.cf
+    path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 10 - lei
+- name: 🇫🇮 FI 09 - lei
   type: vless
   server: 212.104.128.244
   port: 443
@@ -142,44 +130,9 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 11 - lei
+- name: 🇫🇮 FI 10 - lei
   type: vless
-  server: 212.104.128.106
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 12 - lei
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fx3h2kf8xn.fx6hsv0.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fx3h2kf8xn.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 13 - lei
-  type: ss
-  server: 87.58.148.70
-  port: 443
-  cipher: aes-256-gcm
-  password: rg0g3xp9rk9nk9o0
-  udp: true
-- name: 🇫🇮 FI 14 - lei
-  type: vless
-  server: 104.18.38.47
+  server: 172.64.53.60
   port: 2087
   uuid: 77777777-8a3e-6666-b6d1-a9c5f0e8b3a2
   udp: true
@@ -191,49 +144,7 @@ proxies:
     path: ?ed=2560
     headers:
       Host: faxf32gkfzoxqv.fx6hsv0.ccwu.cc
-- name: 🇫🇮 FI 15 - lei
-  type: vless
-  server: 212.104.128.152
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 16 - lei
-  type: vless
-  server: 212.104.128.68
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 17 - lei
-  type: vless
-  server: 212.104.128.45
-  port: 443
-  uuid: b2593749-691c-428c-9481-14979cba3446
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: xi.tbv.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 18 - lei
+- name: 🇫🇮 FI 11 - lei
   type: vless
   server: 212.104.128.139
   port: 443
@@ -247,9 +158,51 @@ proxies:
     path: /
     headers:
       Host: xi.tbv.ccwu.cc
-- name: 🇫🇮 FI 19 - lei
+- name: 🇫🇮 FI 12 - lei
   type: vless
-  server: 212.104.128.68
+  server: 212.104.128.206
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 13 - lei
+  type: vless
+  server: 212.104.128.244
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 14 - lei
+  type: vless
+  server: 212.104.128.152
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 15 - lei
+  type: vless
+  server: 212.104.128.217
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -261,9 +214,119 @@ proxies:
     path: /proxyip=us.xiabibi.cf
     headers:
       Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 16 - lei
+  type: vless
+  server: 95.216.27.15
+  port: 2053
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+  servername: www.google.com
+  client-fingerprint: random
+- name: 🇫🇮 FI 17 - lei
+  type: vless
+  server: 212.104.128.68
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 18 - lei
+  type: vless
+  server: 212.104.128.217
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 19 - lei
+  type: vless
+  server: 212.104.128.45
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
 - name: 🇫🇮 FI 20 - lei
   type: vless
-  server: 212.104.128.0
+  server: 212.104.128.152
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 21 - lei
+  type: vless
+  server: 212.104.128.106
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 22 - lei
+  type: vless
+  server: 212.104.128.45
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 23 - lei
+  type: vless
+  server: 212.104.128.206
+  port: 443
+  uuid: b2593749-691c-428c-9481-14979cba3446
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xi.tbv.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: xi.tbv.ccwu.cc
+- name: 🇫🇮 FI 24 - lei
+  type: vless
+  server: 212.104.128.27
   port: 443
   uuid: b2593749-691c-428c-9481-14979cba3446
   udp: true
@@ -300,6 +363,10 @@ proxy-groups:
   - 🇫🇮 FI 18 - lei
   - 🇫🇮 FI 19 - lei
   - 🇫🇮 FI 20 - lei
+  - 🇫🇮 FI 21 - lei
+  - 🇫🇮 FI 22 - lei
+  - 🇫🇮 FI 23 - lei
+  - 🇫🇮 FI 24 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -325,5 +392,9 @@ proxy-groups:
   - 🇫🇮 FI 18 - lei
   - 🇫🇮 FI 19 - lei
   - 🇫🇮 FI 20 - lei
+  - 🇫🇮 FI 21 - lei
+  - 🇫🇮 FI 22 - lei
+  - 🇫🇮 FI 23 - lei
+  - 🇫🇮 FI 24 - lei
 rules:
 - MATCH,PROXIES
