@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇩 ID 01 - lei"
+        "🇮🇩 ID 01 - lei",
+        "🇮🇩 ID 02 - lei",
+        "🇮🇩 ID 03 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇩 ID 01 - lei"
+        "🇮🇩 ID 01 - lei",
+        "🇮🇩 ID 02 - lei",
+        "🇮🇩 ID 03 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },

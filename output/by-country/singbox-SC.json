@@ -6,24 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇦 SA 01 - lei",
-        "🇸🇦 SA 02 - lei",
-        "🇸🇦 SA 03 - lei",
-        "🇸🇦 SA 04 - lei",
-        "🇸🇦 SA 05 - lei",
-        "🇸🇦 SA 06 - lei"
+        "🇸🇨 SC 01 - lei",
+        "🇸🇨 SC 02 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 SA 01 - lei",
-        "🇸🇦 SA 02 - lei",
-        "🇸🇦 SA 03 - lei",
-        "🇸🇦 SA 04 - lei",
-        "🇸🇦 SA 05 - lei",
-        "🇸🇦 SA 06 - lei"
+        "🇸🇨 SC 01 - lei",
+        "🇸🇨 SC 02 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },

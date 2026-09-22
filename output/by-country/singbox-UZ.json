@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇪 IE 01 - lei"
+        "🇺🇿 UZ 01 - lei",
+        "🇺🇿 UZ 02 - lei",
+        "🇺🇿 UZ 03 - lei",
+        "🇺🇿 UZ 04 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇪 IE 01 - lei"
+        "🇺🇿 UZ 01 - lei",
+        "🇺🇿 UZ 02 - lei",
+        "🇺🇿 UZ 03 - lei",
+        "🇺🇿 UZ 04 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
