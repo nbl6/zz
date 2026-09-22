@@ -4,37 +4,9 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇸 西班牙 (Spain) 01 - lei
+- name: 🇲🇩 MD 01 - lei
   type: vless
-  server: 152.114.195.163
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇪🇸 西班牙 (Spain) 02 - lei
-  type: vless
-  server: 152.114.195.163
-  port: 8443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇪🇸 西班牙 (Spain) 03 - lei
-  type: vless
-  server: 195.133.92.20
+  server: 185.153.198.86
   port: 443
   uuid: c18b978e-1c4e-415c-8bea-07942b563a64
   udp: true
@@ -46,21 +18,64 @@ proxies:
     path: /
     headers:
       Host: shuma.ccwu.cc
+- name: 🇲🇩 MD 02 - lei
+  type: vless
+  server: 185.153.198.86
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇲🇩 MD 03 - lei
+  type: vless
+  server: 185.153.198.86
+  port: 443
+  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shuma.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shuma.ccwu.cc
+- name: 🇲🇩 MD 04 - lei
+  type: vless
+  server: 143.246.219.51
+  port: 8081
+  uuid: 54ee5e59-55a3-4599-83ff-0c67b3f411b2
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vless-test
+    headers:
+      Host: 143.246.219.51
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇪🇸 西班牙 (Spain) 01 - lei
-  - 🇪🇸 西班牙 (Spain) 02 - lei
-  - 🇪🇸 西班牙 (Spain) 03 - lei
+  - 🇲🇩 MD 01 - lei
+  - 🇲🇩 MD 02 - lei
+  - 🇲🇩 MD 03 - lei
+  - 🇲🇩 MD 04 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇸 西班牙 (Spain) 01 - lei
-  - 🇪🇸 西班牙 (Spain) 02 - lei
-  - 🇪🇸 西班牙 (Spain) 03 - lei
+  - 🇲🇩 MD 01 - lei
+  - 🇲🇩 MD 02 - lei
+  - 🇲🇩 MD 03 - lei
+  - 🇲🇩 MD 04 - lei
 rules:
 - MATCH,PROXIES
