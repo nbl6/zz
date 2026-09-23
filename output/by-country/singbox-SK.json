@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇰 SK 01 - lei"
+        "🇸🇰 SK 01 - lei",
+        "🇸🇰 SK 02 - lei",
+        "🇸🇰 SK 03 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇰 SK 01 - lei"
+        "🇸🇰 SK 01 - lei",
+        "🇸🇰 SK 02 - lei",
+        "🇸🇰 SK 03 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
