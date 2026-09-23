@@ -5,18 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - lei
-  type: vless
-  server: champion.xn--kivt58h.lol
-  port: 80
-  uuid: b5af4a3d-f525-43aa-9cc3-de1ba437e4ed
+  type: ss
+  server: sth.free-outline.giize.com
+  port: 1081
+  cipher: chacha20-ietf-poly1305
+  password: wwj19enpp68px8t7
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ak.mcdonaldshamburgergoodgoodgood.xyz
 - name: 🇭🇰 中国香港 (Hong Kong) 02 - lei
   type: vless
   server: 34.96.146.210
@@ -28,22 +22,8 @@ proxies:
   reality-opts:
     public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
   servername: www.cloudflare.com
-  client-fingerprint: chrome
+  client-fingerprint: ios
 - name: 🇭🇰 中国香港 (Hong Kong) 03 - lei
-  type: vless
-  server: 103.118.41.121
-  port: 443
-  uuid: c18b978e-1c4e-415c-8bea-07942b563a64
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: shuma.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: shuma.ccwu.cc
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - lei
   type: vmess
   server: 89.223.95.77
   port: 22324
@@ -53,18 +33,23 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - lei
-  type: vless
-  server: 34.96.146.210
-  port: 443
-  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - lei
+  type: ss
+  server: 103.136.150.119
+  port: 10090
+  cipher: aes-256-gcm
+  password: 72553320ae6bcc8f
   udp: true
-  tls: true
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - lei
+  type: vmess
+  server: 89.223.95.77
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 06 - lei
   type: vmess
   server: 89.223.95.77
@@ -76,24 +61,24 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇭🇰 中国香港 (Hong Kong) 07 - lei
-  type: vless
-  server: 47.238.210.5
-  port: 13779
-  uuid: 928e6cce-8ced-4243-9a48-a6642edd09b0
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: llTyp52oRXnJmQ3I9UUrmlwbMA79B-wLCRHCu-8dLGg
-  servername: tesla.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - lei
   type: ss
   server: sth.free-outline.giize.com
   port: 1081
   cipher: chacha20-ietf-poly1305
   password: uez5t2b4575tgkoi
   udp: true
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - lei
+  type: vless
+  server: 34.96.146.210
+  port: 443
+  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 09 - lei
   type: vless
   server: 34.96.146.210
@@ -117,7 +102,7 @@ proxies:
   reality-opts:
     public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
   servername: www.cloudflare.com
-  client-fingerprint: ios
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 11 - lei
   type: vless
   server: 34.96.146.210
@@ -129,25 +114,8 @@ proxies:
   reality-opts:
     public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇭🇰 中国香港 (Hong Kong) 12 - lei
-  type: ss
-  server: sth.free-outline.giize.com
-  port: 1081
-  cipher: chacha20-ietf-poly1305
-  password: r6tptrwvddxap6al
-  udp: true
-- name: 🇭🇰 中国香港 (Hong Kong) 13 - lei
-  type: vmess
-  server: 89.223.95.77
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 14 - lei
   type: vless
   server: 34.96.146.210
   port: 443
@@ -159,38 +127,6 @@ proxies:
     public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
   servername: www.cloudflare.com
   client-fingerprint: ios
-- name: 🇭🇰 中国香港 (Hong Kong) 15 - lei
-  type: vless
-  server: 34.96.146.210
-  port: 443
-  uuid: 90153538-ef08-4942-b8e1-41e7c523e659
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: tSBJnEt6E1dy6UgX9gX5wUfvZ2KAXjGWVKsEq886OWM
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇭🇰 中国香港 (Hong Kong) 16 - lei
-  type: vmess
-  server: 89.223.95.77
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇭🇰 中国香港 (Hong Kong) 17 - lei
-  type: vmess
-  server: 89.223.95.77
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -208,11 +144,6 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 10 - lei
   - 🇭🇰 中国香港 (Hong Kong) 11 - lei
   - 🇭🇰 中国香港 (Hong Kong) 12 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 13 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 14 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 15 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 16 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 17 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -230,10 +161,5 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 10 - lei
   - 🇭🇰 中国香港 (Hong Kong) 11 - lei
   - 🇭🇰 中国香港 (Hong Kong) 12 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 13 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 14 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 15 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 16 - lei
-  - 🇭🇰 中国香港 (Hong Kong) 17 - lei
 rules:
 - MATCH,PROXIES
