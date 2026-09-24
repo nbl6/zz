@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇸 美国 (United States) 01 (家宽) - lei"
+        "🇪🇪 EE 01 - lei",
+        "🇪🇪 EE 02 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇸 美国 (United States) 01 (家宽) - lei"
+        "🇪🇪 EE 01 - lei",
+        "🇪🇪 EE 02 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
