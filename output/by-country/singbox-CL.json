@@ -6,18 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 - lei",
-        "🇰🇷 韩国 (South Korea) 02 - lei",
-        "🇰🇷 韩国 (South Korea) 03 - lei"
+        "🇨🇱 CL 01 - lei",
+        "🇨🇱 CL 02 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 - lei",
-        "🇰🇷 韩国 (South Korea) 02 - lei",
-        "🇰🇷 韩国 (South Korea) 03 - lei"
+        "🇨🇱 CL 01 - lei",
+        "🇨🇱 CL 02 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
