@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - lei"
+        "🇨🇭 CH 01 - lei",
+        "🇨🇭 CH 02 - lei",
+        "🇨🇭 CH 03 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇰🇷 韩国 (South Korea) 01 (家宽) - lei"
+        "🇨🇭 CH 01 - lei",
+        "🇨🇭 CH 02 - lei",
+        "🇨🇭 CH 03 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },

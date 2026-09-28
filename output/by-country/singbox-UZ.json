@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇷 土耳其 (Turkey) 01 - lei"
+        "🇺🇿 UZ 01 - lei",
+        "🇺🇿 UZ 02 - lei",
+        "🇺🇿 UZ 03 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇷 土耳其 (Turkey) 01 - lei"
+        "🇺🇿 UZ 01 - lei",
+        "🇺🇿 UZ 02 - lei",
+        "🇺🇿 UZ 03 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
