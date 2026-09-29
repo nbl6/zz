@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇴🇲 OM 01 - lei
+- name: 🇰🇷 韩国 (South Korea) 01 (家宽) - lei
   type: ss
-  server: 130.94.81.180
-  port: 18415
-  cipher: aes-128-gcm
-  password: b667234b8d2e7eb34444857ea3a9b18a
+  server: ce1fc2d8.krkt.hkssip.com
+  port: 49642
+  cipher: aes-256-gcm
+  password: ac9c0a7b
   udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇴🇲 OM 01 - lei
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇴🇲 OM 01 - lei
+  - 🇰🇷 韩国 (South Korea) 01 (家宽) - lei
 rules:
 - MATCH,PROXIES
