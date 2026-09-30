@@ -5,6 +5,69 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇷 法国 (France) 01 - lei
+  type: vless
+  server: 94.130.178.194
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇫🇷 法国 (France) 02 - lei
+  type: vless
+  server: 104.21.84.30
+  port: 2053
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fr.api-music-fa.com
+  network: ws
+  ws-opts:
+    path: /api/voip/updates/static/fr2035
+    headers:
+      Host: fr.api-music-fa.com
+- name: 🇫🇷 法国 (France) 03 - lei
+  type: ss
+  server: 51.255.13.232
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: BqnqToih0PbU
+  udp: true
+- name: 🇫🇷 法国 (France) 04 - lei
+  type: vless
+  server: 172.67.92.203
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇫🇷 法国 (France) 05 - lei
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 06 - lei
   type: vmess
   server: 188.114.96.19
   port: 80
@@ -19,95 +82,21 @@ proxies:
     path: /
     headers:
       Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
-- name: 🇫🇷 法国 (France) 02 - lei
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-  udp: true
-- name: 🇫🇷 法国 (France) 03 - lei
-  type: vless
-  server: 172.67.185.98
-  port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fr.api-music-fa.com
-  network: ws
-  ws-opts:
-    path: /api/voip/updates/static/fr2035
-    headers:
-      Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 04 - lei
-  type: ss
-  server: nl-irancell3.xelfona.ir
-  port: 49548
-  cipher: 2022-blake3-aes-256-gcm
-  password: zZ+k8UwdTQ9ZTnxEodTN2YI6KrFKEAcBWgCbLZIVUTE=:LbWEdFyjKcvZcv9agyGttSn0HNap+ecf50/UrlGMBCQ=
-  udp: true
-- name: 🇫🇷 法国 (France) 05 - lei
-  type: vless
-  server: ewylr.smartorbitbox-bekhabdg.site
-  port: 443
-  uuid: bcf89786-1b01-47dc-9a36-a7db03626e53
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ewylr.smartorbitbox-bekhabdg.site
-  network: ws
-  ws-opts:
-    path: /tigerjoon
-    headers:
-      Host: ewylr.smartorbitbox-bekhabdg.site
-- name: 🇫🇷 法国 (France) 06 - lei
-  type: vless
-  server: 104.21.84.30
-  port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: fr.api-music-fa.com
-  network: ws
-  ws-opts:
-    path: /api/voip/updates/static/fr2035
-    headers:
-      Host: fr.api-music-fa.com
 - name: 🇫🇷 法国 (France) 07 - lei
-  type: vmess
-  server: 141.95.65.9
-  port: 1234
-  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ''
-- name: 🇫🇷 法国 (France) 08 - lei
   type: vless
-  server: 94.130.178.194
+  server: 104.26.0.226
   port: 443
-  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: shephe.dpdns.org
+  servername: edgetunnel-4uw.pages.dev
   network: ws
   ws-opts:
-    path: /
+    path: /+
     headers:
-      Host: shephe.dpdns.org
-- name: 🇫🇷 法国 (France) 09 - lei
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-  udp: true
-- name: 🇫🇷 法国 (France) 10 - lei
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇫🇷 法国 (France) 08 - lei
   type: vless
   server: 149.202.58.99
   port: 443
@@ -121,21 +110,35 @@ proxies:
     path: /vws/
     headers:
       Host: bab-6.site
-- name: 🇫🇷 法国 (France) 11 - lei
+- name: 🇫🇷 法国 (France) 09 - lei
   type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  server: 172.67.185.98
+  port: 2053
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
+  servername: fr.api-music-fa.com
   network: ws
   ws-opts:
-    path: /vws/
+    path: /api/voip/updates/static/fr2035
     headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 12 - lei
+      Host: fr.api-music-fa.com
+- name: 🇫🇷 法国 (France) 10 - lei
+  type: vless
+  server: 172.67.79.81
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇫🇷 法国 (France) 11 - lei
   type: vless
   server: 217.60.63.5
   port: 443
@@ -149,7 +152,97 @@ proxies:
     path: /
     headers:
       Host: shephe.dpdns.org
+- name: 🇫🇷 法国 (France) 12 - lei
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
 - name: 🇫🇷 法国 (France) 13 - lei
+  type: vless
+  server: 34.155.146.201
+  port: 443
+  uuid: 069a2bbd-3fc9-470f-a251-c836a96ed04a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: SVT2WeXMIrumlh5VG1lbHN6YbqL7-u2iRkv1js8XEU4
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇫🇷 法国 (France) 14 - lei
+  type: vless
+  server: 104.26.11.253
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇫🇷 法国 (France) 15 - lei
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 16 - lei
+  type: vless
+  server: 104.26.11.253
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇫🇷 法国 (France) 17 - lei
+  type: vless
+  server: 172.67.92.203
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇫🇷 法国 (France) 18 - lei
+  type: vless
+  server: 172.67.79.81
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇫🇷 法国 (France) 19 - lei
   type: vless
   server: 94.130.178.194
   port: 443
@@ -163,6 +256,75 @@ proxies:
     path: /
     headers:
       Host: shephe.dpdns.org
+- name: 🇫🇷 法国 (France) 20 - lei
+  type: vless
+  server: 104.19.148.121
+  port: 443
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: 05agj.gkef.zhs.hh.vavava.kdns.fr
+- name: 🇫🇷 法国 (France) 21 - lei
+  type: vless
+  server: 51.77.217.70
+  port: 2053
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 22 - lei
+  type: vless
+  server: 104.26.0.226
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇫🇷 法国 (France) 23 - lei
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 24 - lei
+  type: vmess
+  server: 188.114.96.19
+  port: 80
+  uuid: aed88e79-5762-4d2f-86fa-f438f32a7654
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: google.whatsapp.snapp.torob.basalam.hesanid8.ir.
 proxy-groups:
 - name: PROXIES
   type: select
@@ -181,6 +343,17 @@ proxy-groups:
   - 🇫🇷 法国 (France) 11 - lei
   - 🇫🇷 法国 (France) 12 - lei
   - 🇫🇷 法国 (France) 13 - lei
+  - 🇫🇷 法国 (France) 14 - lei
+  - 🇫🇷 法国 (France) 15 - lei
+  - 🇫🇷 法国 (France) 16 - lei
+  - 🇫🇷 法国 (France) 17 - lei
+  - 🇫🇷 法国 (France) 18 - lei
+  - 🇫🇷 法国 (France) 19 - lei
+  - 🇫🇷 法国 (France) 20 - lei
+  - 🇫🇷 法国 (France) 21 - lei
+  - 🇫🇷 法国 (France) 22 - lei
+  - 🇫🇷 法国 (France) 23 - lei
+  - 🇫🇷 法国 (France) 24 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -199,5 +372,16 @@ proxy-groups:
   - 🇫🇷 法国 (France) 11 - lei
   - 🇫🇷 法国 (France) 12 - lei
   - 🇫🇷 法国 (France) 13 - lei
+  - 🇫🇷 法国 (France) 14 - lei
+  - 🇫🇷 法国 (France) 15 - lei
+  - 🇫🇷 法国 (France) 16 - lei
+  - 🇫🇷 法国 (France) 17 - lei
+  - 🇫🇷 法国 (France) 18 - lei
+  - 🇫🇷 法国 (France) 19 - lei
+  - 🇫🇷 法国 (France) 20 - lei
+  - 🇫🇷 法国 (France) 21 - lei
+  - 🇫🇷 法国 (France) 22 - lei
+  - 🇫🇷 法国 (France) 23 - lei
+  - 🇫🇷 法国 (France) 24 - lei
 rules:
 - MATCH,PROXIES

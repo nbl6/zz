@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇩🇰 DK 01 - lei",
+        "🇩🇰 DK 02 - lei",
+        "🇩🇰 DK 03 - lei",
+        "🇩🇰 DK 04 - lei",
+        "🇩🇰 DK 05 - lei",
+        "🇩🇰 DK 06 - lei",
+        "🇩🇰 DK 07 - lei"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇩🇰 DK 01 - lei",
+        "🇩🇰 DK 02 - lei",
+        "🇩🇰 DK 03 - lei",
+        "🇩🇰 DK 04 - lei",
+        "🇩🇰 DK 05 - lei",
+        "🇩🇰 DK 06 - lei",
+        "🇩🇰 DK 07 - lei"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}

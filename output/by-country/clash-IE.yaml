@@ -11,17 +11,170 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: r5D6YOSrT6kC76ro
   udp: true
+- name: 🇮🇪 IE 02 - lei
+  type: vless
+  server: 104.26.10.213
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /+
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 03 - lei
+  type: vless
+  server: 104.26.11.189
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇮🇪 IE 04 - lei
+  type: vless
+  server: 104.26.10.213
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 05 - lei
+  type: vless
+  server: 104.26.11.253
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇮🇪 IE 06 - lei
+  type: vless
+  server: 172.67.73.170
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 07 - lei
+  type: ss
+  server: 20.123.34.66
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: r5D6YOSrT6kC76ro
+  udp: true
+- name: 🇮🇪 IE 08 - lei
+  type: vless
+  server: 104.26.10.213
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 09 - lei
+  type: vless
+  server: 104.26.11.189
+  port: 443
+  uuid: 9e3132b8-b595-444a-833a-2de44789f9d7
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: shephe.dpdns.org
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: shephe.dpdns.org
+- name: 🇮🇪 IE 10 - lei
+  type: vless
+  server: 45.141.234.138
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
+- name: 🇮🇪 IE 11 - lei
+  type: vless
+  server: 172.67.73.170
+  port: 443
+  uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: edgetunnel-4uw.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: edgetunnel-4uw.pages.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇪 IE 01 - lei
+  - 🇮🇪 IE 02 - lei
+  - 🇮🇪 IE 03 - lei
+  - 🇮🇪 IE 04 - lei
+  - 🇮🇪 IE 05 - lei
+  - 🇮🇪 IE 06 - lei
+  - 🇮🇪 IE 07 - lei
+  - 🇮🇪 IE 08 - lei
+  - 🇮🇪 IE 09 - lei
+  - 🇮🇪 IE 10 - lei
+  - 🇮🇪 IE 11 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 IE 01 - lei
+  - 🇮🇪 IE 02 - lei
+  - 🇮🇪 IE 03 - lei
+  - 🇮🇪 IE 04 - lei
+  - 🇮🇪 IE 05 - lei
+  - 🇮🇪 IE 06 - lei
+  - 🇮🇪 IE 07 - lei
+  - 🇮🇪 IE 08 - lei
+  - 🇮🇪 IE 09 - lei
+  - 🇮🇪 IE 10 - lei
+  - 🇮🇪 IE 11 - lei
 rules:
 - MATCH,PROXIES
