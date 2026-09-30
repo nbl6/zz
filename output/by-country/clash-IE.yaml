@@ -6,6 +6,20 @@ log-level: info
 proxies:
 - name: 🇮🇪 IE 01 - lei
   type: vless
+  server: 104.21.63.28
+  port: 443
+  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: youxuanku.kdns.fr
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: youxuanku.kdns.fr
+- name: 🇮🇪 IE 02 - lei
+  type: vless
   server: 45.141.234.138
   port: 443
   uuid: fdc48be3-a615-41ac-8bd1-ed844c931048
@@ -24,11 +38,13 @@ proxy-groups:
   proxies:
   - AUTO
   - 🇮🇪 IE 01 - lei
+  - 🇮🇪 IE 02 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
   - 🇮🇪 IE 01 - lei
+  - 🇮🇪 IE 02 - lei
 rules:
 - MATCH,PROXIES
