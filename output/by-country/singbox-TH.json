@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇹🇭 TH 01 - lei",
+        "🇹🇭 TH 02 - lei",
+        "🇹🇭 TH 03 - lei"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇹🇭 TH 01 - lei",
+        "🇹🇭 TH 02 - lei",
+        "🇹🇭 TH 03 - lei"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
