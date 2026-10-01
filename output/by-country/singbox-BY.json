@@ -6,14 +6,24 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇶🇦 QA 01 - lei"
+        "🇧🇾 BY 01 - lei",
+        "🇧🇾 BY 02 - lei",
+        "🇧🇾 BY 03 - lei",
+        "🇧🇾 BY 04 - lei",
+        "🇧🇾 BY 05 - lei",
+        "🇧🇾 BY 06 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇶🇦 QA 01 - lei"
+        "🇧🇾 BY 01 - lei",
+        "🇧🇾 BY 02 - lei",
+        "🇧🇾 BY 03 - lei",
+        "🇧🇾 BY 04 - lei",
+        "🇧🇾 BY 05 - lei",
+        "🇧🇾 BY 06 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
