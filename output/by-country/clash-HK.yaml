@@ -5,9 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 - lei
+  type: ss
+  server: telegramx.khp25.com
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: m5nsedvdczx6x06e
+  udp: true
+- name: 🇭🇰 中国香港 (Hong Kong) 02 - lei
   type: vless
-  server: 85.149.211.28
-  port: 8443
+  server: 37.221.210.113
+  port: 443
   uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   udp: true
   tls: true
@@ -18,7 +25,30 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 02 - lei
+- name: 🇭🇰 中国香港 (Hong Kong) 03 - lei
+  type: vless
+  server: 195.58.144.56
+  port: 11907
+  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 195.58.144.56
+- name: 🇭🇰 中国香港 (Hong Kong) 04 - lei
+  type: vless
+  server: hk.152568.xyz
+  port: 443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.152568.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 05 - lei
   type: vmess
   server: 194.99.79.26
   port: 443
@@ -34,10 +64,10 @@ proxies:
     path: /linkvws
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 03 - lei
+- name: 🇭🇰 中国香港 (Hong Kong) 06 - lei
   type: vless
-  server: 37.221.210.113
-  port: 443
+  server: hk.152568.xyz
+  port: 8443
   uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   udp: true
   tls: true
@@ -48,16 +78,7 @@ proxies:
     path: /cdn/packages/runtime-core.tar.gz
     headers:
       Host: hk.152568.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 04 - lei
-  type: vless
-  server: 195.58.144.56
-  port: 11907
-  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 195.58.144.56
-- name: 🇭🇰 中国香港 (Hong Kong) 05 - lei
+- name: 🇭🇰 中国香港 (Hong Kong) 07 - lei
   type: vmess
   server: 156.245.232.239
   port: 35043
@@ -72,7 +93,51 @@ proxies:
     path: /
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 06 - lei
+- name: 🇭🇰 中国香港 (Hong Kong) 08 - lei
+  type: vmess
+  server: 194.99.79.26
+  port: 443
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aksai.org
+  network: ws
+  ws-opts:
+    path: /linkvws
+    headers:
+      Host: aksai.org
+- name: 🇭🇰 中国香港 (Hong Kong) 09 - lei
+  type: vless
+  server: 108.165.236.247
+  port: 443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.152568.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 10 - lei
+  type: vless
+  server: 85.149.211.28
+  port: 8443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: hk.152568.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 11 - lei
   type: vmess
   server: yg1.ygkkk.dpdns.org
   port: 443
@@ -88,16 +153,21 @@ proxies:
     path: /b2ba4a73-3123-479e-aa96-5973a9ecd0c0-vm
     headers:
       Host: jmp1.907737.xyz
-- name: 🇭🇰 中国香港 (Hong Kong) 07 - lei
+- name: 🇭🇰 中国香港 (Hong Kong) 12 - lei
   type: vless
-  server: 195.58.144.56
-  port: 11907
-  uuid: 07cb07b9-0c4d-46c1-a15a-b147511b6b07
+  server: 5.223.51.84
+  port: 443
+  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 195.58.144.56
-- name: 🇭🇰 中国香港 (Hong Kong) 08 - lei
+  servername: hk.152568.xyz
+  network: ws
+  ws-opts:
+    path: /cdn/packages/runtime-core.tar.gz
+    headers:
+      Host: hk.152568.xyz
+- name: 🇭🇰 中国香港 (Hong Kong) 13 - lei
   type: vmess
   server: 194.99.79.26
   port: 443
@@ -113,20 +183,6 @@ proxies:
     path: /linkvws
     headers:
       Host: ''
-- name: 🇭🇰 中国香港 (Hong Kong) 09 - lei
-  type: vless
-  server: 85.149.211.28
-  port: 8443
-  uuid: 0250424c-ae75-4b6b-890f-3fe26fae36c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: hk.152568.xyz
-  network: ws
-  ws-opts:
-    path: /cdn/packages/runtime-core.tar.gz
-    headers:
-      Host: hk.152568.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -141,6 +197,10 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - lei
   - 🇭🇰 中国香港 (Hong Kong) 08 - lei
   - 🇭🇰 中国香港 (Hong Kong) 09 - lei
+  - 🇭🇰 中国香港 (Hong Kong) 10 - lei
+  - 🇭🇰 中国香港 (Hong Kong) 11 - lei
+  - 🇭🇰 中国香港 (Hong Kong) 12 - lei
+  - 🇭🇰 中国香港 (Hong Kong) 13 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -155,5 +215,9 @@ proxy-groups:
   - 🇭🇰 中国香港 (Hong Kong) 07 - lei
   - 🇭🇰 中国香港 (Hong Kong) 08 - lei
   - 🇭🇰 中国香港 (Hong Kong) 09 - lei
+  - 🇭🇰 中国香港 (Hong Kong) 10 - lei
+  - 🇭🇰 中国香港 (Hong Kong) 11 - lei
+  - 🇭🇰 中国香港 (Hong Kong) 12 - lei
+  - 🇭🇰 中国香港 (Hong Kong) 13 - lei
 rules:
 - MATCH,PROXIES
