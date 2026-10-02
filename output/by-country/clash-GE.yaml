@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇿 CZ 01 - lei
+- name: 🇬🇪 GE 01 - lei
   type: vless
-  server: port2.axiomed.ir
+  server: geo.shkola112.site
   port: 443
-  uuid: 1e534c59-85c2-4042-a407-e491f68cb3a5
+  uuid: 76ac91c5-ea82-4046-8ee7-2ffbb563ac94
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev
+  servername: geo.shkola112.site
   network: ws
   ws-opts:
-    path: /vl/Z8Ag5xQbwmhIHsvyDj3
+    path: /api-vless
     headers:
-      Host: kjz42cni3-krcuj2-gqs8ves15.fornewiran-1010.workers.dev
+      Host: geo.shkola112.site
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇿 CZ 01 - lei
+  - 🇬🇪 GE 01 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇿 CZ 01 - lei
+  - 🇬🇪 GE 01 - lei
 rules:
 - MATCH,PROXIES
