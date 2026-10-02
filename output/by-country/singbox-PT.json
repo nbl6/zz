@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇹 PT 01 - lei",
-        "🇵🇹 PT 02 - lei"
+        "🇵🇹 PT 01 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇹 PT 01 - lei",
-        "🇵🇹 PT 02 - lei"
+        "🇵🇹 PT 01 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
