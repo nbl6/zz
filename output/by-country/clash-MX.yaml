@@ -4,24 +4,24 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇵🇭 PH 01 - lei
+- name: 🇲🇽 MX 01 - lei
   type: ss
-  server: 149.104.109.252
-  port: 8882
+  server: 64.177.90.30
+  port: 8388
   cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
+  password: BWyPPTusFKhGgzKh
   udp: true
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇵🇭 PH 01 - lei
+  - 🇲🇽 MX 01 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇵🇭 PH 01 - lei
+  - 🇲🇽 MX 01 - lei
 rules:
 - MATCH,PROXIES
