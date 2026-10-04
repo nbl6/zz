@@ -4,33 +4,25 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇷 BR 01 - lei
-  type: vmess
-  server: 89.39.161.157
-  port: 443
-  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
-  alterId: 0
-  cipher: auto
+- name: 🇹🇷 土耳其 (Turkey) 01 - lei
+  type: vless
+  server: test.keoplentuio.xyz
+  port: 2053
+  uuid: 9ef61079-6f7d-4911-9608-943da85d8e6f
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: ''
-  network: ws
-  ws-opts:
-    path: /linkvws
-    headers:
-      Host: ''
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇧🇷 BR 01 - lei
+  - 🇹🇷 土耳其 (Turkey) 01 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇷 BR 01 - lei
+  - 🇹🇷 土耳其 (Turkey) 01 - lei
 rules:
 - MATCH,PROXIES
