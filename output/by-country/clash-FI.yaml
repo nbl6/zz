@@ -5,6 +5,25 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - lei
+  type: ss
+  server: 45.149.114.171
+  port: 777
+  cipher: chacha20-ietf-poly1305
+  password: Jeoq8ujfkqZKKvACQhoqBQ1PA3uq4242
+  udp: true
+- name: 🇫🇮 FI 02 - lei
+  type: vless
+  server: 95.216.27.15
+  port: 2053
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+  servername: www.google.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 03 - lei
   type: vless
   server: mainline.proxy.rlwy.net
   port: 44242
@@ -17,7 +36,19 @@ proxies:
     path: /
     headers:
       Host: mainline.proxy.rlwy.net
-- name: 🇫🇮 FI 02 - lei
+- name: 🇫🇮 FI 04 - lei
+  type: vless
+  server: 95.216.27.15
+  port: 2053
+  uuid: 1c81f6d3-5771-4c5d-9fdd-1655eff50634
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
+  servername: www.google.com
+  client-fingerprint: chrome
+- name: 🇫🇮 FI 05 - lei
   type: vless
   server: 95.216.27.15
   port: 2053
@@ -29,14 +60,7 @@ proxies:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
   client-fingerprint: firefox
-- name: 🇫🇮 FI 03 - lei
-  type: ss
-  server: 185.103.110.68
-  port: 18283
-  cipher: aes-128-gcm
-  password: f9300a9bf39ae0347c3a3bfbc4dd7754
-  udp: true
-- name: 🇫🇮 FI 04 - lei
+- name: 🇫🇮 FI 06 - lei
   type: ss
   server: 185.103.110.68
   port: 18283
@@ -52,6 +76,8 @@ proxy-groups:
   - 🇫🇮 FI 02 - lei
   - 🇫🇮 FI 03 - lei
   - 🇫🇮 FI 04 - lei
+  - 🇫🇮 FI 05 - lei
+  - 🇫🇮 FI 06 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -61,5 +87,7 @@ proxy-groups:
   - 🇫🇮 FI 02 - lei
   - 🇫🇮 FI 03 - lei
   - 🇫🇮 FI 04 - lei
+  - 🇫🇮 FI 05 - lei
+  - 🇫🇮 FI 06 - lei
 rules:
 - MATCH,PROXIES
