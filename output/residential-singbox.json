@@ -8,8 +8,9 @@
         "auto",
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - lei",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - lei",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - lei",
-        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - lei"
+        "🇺🇸 美国 (United States) 03 (家宽) - lei",
+        "🇺🇸 美国 (United States) 04 (家宽) - lei",
+        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - lei"
       ]
     },
     {
@@ -18,8 +19,9 @@
       "outbounds": [
         "🇹🇼 中国台湾 (Taiwan) 01 (家宽) - lei",
         "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - lei",
-        "🇰🇷 韩国 (South Korea) 03 (家宽) - lei",
-        "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - lei"
+        "🇺🇸 美国 (United States) 03 (家宽) - lei",
+        "🇺🇸 美国 (United States) 04 (家宽) - lei",
+        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
