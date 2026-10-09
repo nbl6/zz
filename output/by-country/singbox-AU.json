@@ -6,24 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - lei",
-        "🇹🇭 TH 02 - lei",
-        "🇹🇭 TH 03 - lei",
-        "🇹🇭 TH 04 - lei",
-        "🇹🇭 TH 05 - lei",
-        "🇹🇭 TH 06 - lei"
+        "🇦🇺 澳大利亚 (Australia) 01 - lei",
+        "🇦🇺 澳大利亚 (Australia) 02 - lei",
+        "🇦🇺 澳大利亚 (Australia) 03 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - lei",
-        "🇹🇭 TH 02 - lei",
-        "🇹🇭 TH 03 - lei",
-        "🇹🇭 TH 04 - lei",
-        "🇹🇭 TH 05 - lei",
-        "🇹🇭 TH 06 - lei"
+        "🇦🇺 澳大利亚 (Australia) 01 - lei",
+        "🇦🇺 澳大利亚 (Australia) 02 - lei",
+        "🇦🇺 澳大利亚 (Australia) 03 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
