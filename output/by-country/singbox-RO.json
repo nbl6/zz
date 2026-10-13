@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇷🇴 RO 01 - lei",
-        "🇷🇴 RO 02 - lei"
+        "🇷🇴 RO 01 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇷🇴 RO 01 - lei",
-        "🇷🇴 RO 02 - lei"
+        "🇷🇴 RO 01 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
