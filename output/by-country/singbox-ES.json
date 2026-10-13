@@ -6,24 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - lei",
-        "🇨🇾 CY 02 - lei",
-        "🇨🇾 CY 03 - lei",
-        "🇨🇾 CY 04 - lei",
-        "🇨🇾 CY 05 - lei",
-        "🇨🇾 CY 06 - lei"
+        "🇪🇸 西班牙 (Spain) 01 - lei",
+        "🇪🇸 西班牙 (Spain) 02 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - lei",
-        "🇨🇾 CY 02 - lei",
-        "🇨🇾 CY 03 - lei",
-        "🇨🇾 CY 04 - lei",
-        "🇨🇾 CY 05 - lei",
-        "🇨🇾 CY 06 - lei"
+        "🇪🇸 西班牙 (Spain) 01 - lei",
+        "🇪🇸 西班牙 (Spain) 02 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
