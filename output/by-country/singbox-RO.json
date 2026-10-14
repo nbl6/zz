@@ -6,18 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇭 CH 01 - lei",
-        "🇨🇭 CH 02 - lei",
-        "🇨🇭 CH 03 - lei"
+        "🇷🇴 RO 01 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 CH 01 - lei",
-        "🇨🇭 CH 02 - lei",
-        "🇨🇭 CH 03 - lei"
+        "🇷🇴 RO 01 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
