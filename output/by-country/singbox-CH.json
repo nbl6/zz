@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "outbounds": [
+    {
+      "type": "selector",
+      "tag": "select",
+      "outbounds": [
+        "auto",
+        "🇨🇭 CH 01 - lei",
+        "🇨🇭 CH 02 - lei",
+        "🇨🇭 CH 03 - lei",
+        "🇨🇭 CH 04 - lei",
+        "🇨🇭 CH 05 - lei",
+        "🇨🇭 CH 06 - lei",
+        "🇨🇭 CH 07 - lei",
+        "🇨🇭 CH 08 - lei",
+        "🇨🇭 CH 09 - lei",
+        "🇨🇭 CH 10 - lei",
+        "🇨🇭 CH 11 - lei"
+      ]
+    },
+    {
+      "type": "urltest",
+      "tag": "auto",
+      "outbounds": [
+        "🇨🇭 CH 01 - lei",
+        "🇨🇭 CH 02 - lei",
+        "🇨🇭 CH 03 - lei",
+        "🇨🇭 CH 04 - lei",
+        "🇨🇭 CH 05 - lei",
+        "🇨🇭 CH 06 - lei",
+        "🇨🇭 CH 07 - lei",
+        "🇨🇭 CH 08 - lei",
+        "🇨🇭 CH 09 - lei",
+        "🇨🇭 CH 10 - lei",
+        "🇨🇭 CH 11 - lei"
+      ],
+      "url": "https://www.google.com/generate_204"
+    },
+    {
+      "type": "direct",
+      "tag": "direct"
+    },
+    {
+      "type": "block",
+      "tag": "block"
+    }
+  ]
+}
