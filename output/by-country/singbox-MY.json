@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇾 MY 01 - lei",
-        "🇲🇾 MY 02 - lei"
+        "🇲🇾 MY 01 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇾 MY 01 - lei",
-        "🇲🇾 MY 02 - lei"
+        "🇲🇾 MY 01 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
