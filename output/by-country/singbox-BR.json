@@ -8,7 +8,8 @@
         "auto",
         "🇧🇷 BR 01 - lei",
         "🇧🇷 BR 02 - lei",
-        "🇧🇷 BR 03 - lei"
+        "🇧🇷 BR 03 - lei",
+        "🇧🇷 BR 04 - lei"
       ]
     },
     {
@@ -17,7 +18,8 @@
       "outbounds": [
         "🇧🇷 BR 01 - lei",
         "🇧🇷 BR 02 - lei",
-        "🇧🇷 BR 03 - lei"
+        "🇧🇷 BR 03 - lei",
+        "🇧🇷 BR 04 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
