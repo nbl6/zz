@@ -6,28 +6,30 @@ log-level: info
 proxies:
 - name: 🇧🇷 BR 01 - lei
   type: vless
-  server: 35.199.90.53
-  port: 443
-  uuid: 5e517b94-e207-47ee-be3c-3020a57594e8
+  server: platform108.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /platform108
+    headers:
+      Host: platform108.halalkhor.info
 - name: 🇧🇷 BR 02 - lei
   type: vless
-  server: 35.199.90.53
-  port: 443
-  uuid: 5e517b94-e207-47ee-be3c-3020a57594e8
+  server: platform102.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: pCImwRkTjx8OIUiu1WFelZQFt1p3Q0lUoPbvjVq8GTs
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /platform102
+    headers:
+      Host: platform102.halalkhor.info
 - name: 🇧🇷 BR 03 - lei
   type: vless
   server: platform102.golnamakcert.top
@@ -43,6 +45,32 @@ proxies:
       Host: platform102.halalkhor.info
 - name: 🇧🇷 BR 04 - lei
   type: vless
+  server: platform106.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform106
+    headers:
+      Host: platform106.halalkhor.info
+- name: 🇧🇷 BR 05 - lei
+  type: vless
+  server: platform106.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform106
+    headers:
+      Host: platform106.halalkhor.info
+- name: 🇧🇷 BR 06 - lei
+  type: vless
   server: platform101.golnamakcert.top
   port: 80
   uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
@@ -54,6 +82,123 @@ proxies:
     path: /platform101
     headers:
       Host: platform101.halalkhor.info
+- name: 🇧🇷 BR 07 - lei
+  type: vless
+  server: platform107.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform107
+    headers:
+      Host: platform107.halalkhor.info
+- name: 🇧🇷 BR 08 - lei
+  type: vless
+  server: platform107.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform107
+    headers:
+      Host: platform107.halalkhor.info
+- name: 🇧🇷 BR 09 - lei
+  type: vless
+  server: platform107.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform107
+    headers:
+      Host: platform107.golnamakcert.top
+- name: 🇧🇷 BR 10 - lei
+  type: vless
+  server: platform107.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform107
+    headers:
+      Host: platform107.halalkhor.info
+- name: 🇧🇷 BR 11 - lei
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇧🇷 BR 12 - lei
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
+- name: 🇧🇷 BR 13 - lei
+  type: vless
+  server: platform118.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform118
+    headers:
+      Host: platform118.halalkhor.info
+- name: 🇧🇷 BR 14 - lei
+  type: vless
+  server: platform108.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform108
+    headers:
+      Host: platform108.halalkhor.info
+- name: 🇧🇷 BR 15 - lei
+  type: vless
+  server: platform103.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /platform103
+    headers:
+      Host: platform103.halalkhor.info
 proxy-groups:
 - name: PROXIES
   type: select
@@ -63,6 +208,17 @@ proxy-groups:
   - 🇧🇷 BR 02 - lei
   - 🇧🇷 BR 03 - lei
   - 🇧🇷 BR 04 - lei
+  - 🇧🇷 BR 05 - lei
+  - 🇧🇷 BR 06 - lei
+  - 🇧🇷 BR 07 - lei
+  - 🇧🇷 BR 08 - lei
+  - 🇧🇷 BR 09 - lei
+  - 🇧🇷 BR 10 - lei
+  - 🇧🇷 BR 11 - lei
+  - 🇧🇷 BR 12 - lei
+  - 🇧🇷 BR 13 - lei
+  - 🇧🇷 BR 14 - lei
+  - 🇧🇷 BR 15 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -72,5 +228,16 @@ proxy-groups:
   - 🇧🇷 BR 02 - lei
   - 🇧🇷 BR 03 - lei
   - 🇧🇷 BR 04 - lei
+  - 🇧🇷 BR 05 - lei
+  - 🇧🇷 BR 06 - lei
+  - 🇧🇷 BR 07 - lei
+  - 🇧🇷 BR 08 - lei
+  - 🇧🇷 BR 09 - lei
+  - 🇧🇷 BR 10 - lei
+  - 🇧🇷 BR 11 - lei
+  - 🇧🇷 BR 12 - lei
+  - 🇧🇷 BR 13 - lei
+  - 🇧🇷 BR 14 - lei
+  - 🇧🇷 BR 15 - lei
 rules:
 - MATCH,PROXIES
