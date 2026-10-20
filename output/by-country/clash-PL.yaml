@@ -29,14 +29,6 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: pl.flen-vpn.xyz
-- name: 🇵🇱 PL 04 - lei
-  type: vless
-  server: milo.rubinaz.xyz
-  port: 8080
-  uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
-  udp: true
-  tls: false
-  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -45,7 +37,6 @@ proxy-groups:
   - 🇵🇱 PL 01 - lei
   - 🇵🇱 PL 02 - lei
   - 🇵🇱 PL 03 - lei
-  - 🇵🇱 PL 04 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -54,6 +45,5 @@ proxy-groups:
   - 🇵🇱 PL 01 - lei
   - 🇵🇱 PL 02 - lei
   - 🇵🇱 PL 03 - lei
-  - 🇵🇱 PL 04 - lei
 rules:
 - MATCH,PROXIES
