@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇦 UA 01 - lei"
+        "🇺🇦 UA 01 - lei",
+        "🇺🇦 UA 02 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇦 UA 01 - lei"
+        "🇺🇦 UA 01 - lei",
+        "🇺🇦 UA 02 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
