@@ -6,13 +6,21 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - lei
   type: vless
+  server: edge10.cyrionflare.com
+  port: 2052
+  uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇵🇱 PL 02 - lei
+  type: vless
   server: site.teslamotor.site
   port: 20001
   uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇵🇱 PL 02 - lei
+- name: 🇵🇱 PL 03 - lei
   type: vless
   server: edge10.cyrionflare.com
   port: 2052
@@ -20,33 +28,22 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇵🇱 PL 03 - lei
-  type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 2.26.6.1
 - name: 🇵🇱 PL 04 - lei
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 2.26.6.1
 - name: 🇵🇱 PL 05 - lei
   type: vless
-  server: 2.26.6.1
-  port: 2087
-  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  server: site.teslamotor.site
+  port: 20001
+  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: 2.26.6.1
 - name: 🇵🇱 PL 06 - lei
   type: vless
   server: site.teslamotor.site
@@ -73,12 +70,49 @@ proxies:
   skip-cert-verify: true
 - name: 🇵🇱 PL 09 - lei
   type: vless
-  server: site.teslamotor.site
-  port: 20001
-  uuid: 8e8210b7-71a4-4799-8b9b-2e69698b1eaf
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: 2.26.6.1
+- name: 🇵🇱 PL 10 - lei
+  type: vless
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2.26.6.1
+- name: 🇵🇱 PL 11 - lei
+  type: vless
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2.26.6.1
+- name: 🇵🇱 PL 12 - lei
+  type: vless
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2.26.6.1
+- name: 🇵🇱 PL 13 - lei
+  type: vless
+  server: 2.26.6.1
+  port: 2087
+  uuid: b9fdc03f-389b-4cda-9be4-155b623bee15
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: 2.26.6.1
 proxy-groups:
 - name: PROXIES
   type: select
@@ -93,6 +127,10 @@ proxy-groups:
   - 🇵🇱 PL 07 - lei
   - 🇵🇱 PL 08 - lei
   - 🇵🇱 PL 09 - lei
+  - 🇵🇱 PL 10 - lei
+  - 🇵🇱 PL 11 - lei
+  - 🇵🇱 PL 12 - lei
+  - 🇵🇱 PL 13 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -107,5 +145,9 @@ proxy-groups:
   - 🇵🇱 PL 07 - lei
   - 🇵🇱 PL 08 - lei
   - 🇵🇱 PL 09 - lei
+  - 🇵🇱 PL 10 - lei
+  - 🇵🇱 PL 11 - lei
+  - 🇵🇱 PL 12 - lei
+  - 🇵🇱 PL 13 - lei
 rules:
 - MATCH,PROXIES
