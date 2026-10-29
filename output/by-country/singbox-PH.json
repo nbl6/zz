@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇺🇿 UZ 01 - lei"
+        "🇵🇭 PH 01 - lei",
+        "🇵🇭 PH 02 - lei",
+        "🇵🇭 PH 03 - lei",
+        "🇵🇭 PH 04 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇺🇿 UZ 01 - lei"
+        "🇵🇭 PH 01 - lei",
+        "🇵🇭 PH 02 - lei",
+        "🇵🇭 PH 03 - lei",
+        "🇵🇭 PH 04 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
