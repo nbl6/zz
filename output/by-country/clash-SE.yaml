@@ -19,20 +19,6 @@ proxies:
       Host: 5.178.109.174
 - name: 🇸🇪 SE 02 - lei
   type: vless
-  server: se-sto.862400.xyz
-  port: 443
-  uuid: ea81763f-e534-4700-aa28-9ac98156771b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: se-sto.862400.xyz
-  network: ws
-  ws-opts:
-    path: /announcement?ed=2048
-    headers:
-      Host: se-sto.862400.xyz
-- name: 🇸🇪 SE 03 - lei
-  type: vless
   server: 194.104.94.141
   port: 443
   uuid: 6ba4ed2e-b42b-4880-8b3b-c7e2df2d02f6
@@ -40,7 +26,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: se3.shtil.io
-- name: 🇸🇪 SE 04 - lei
+- name: 🇸🇪 SE 03 - lei
   type: vless
   server: se3.shtil.io
   port: 443
@@ -49,21 +35,7 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: se3.shtil.io
-- name: 🇸🇪 SE 05 - lei
-  type: vless
-  server: se-sto.862400.xyz
-  port: 443
-  uuid: ea81763f-e534-4700-aa28-9ac98156771b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: se-sto.862400.xyz
-  network: ws
-  ws-opts:
-    path: /announcement?ed=2048fp=random
-    headers:
-      Host: se-sto.862400.xyz
-- name: 🇸🇪 SE 06 - lei
+- name: 🇸🇪 SE 04 - lei
   type: vless
   server: 194.104.94.141
   port: 443
@@ -81,8 +53,6 @@ proxy-groups:
   - 🇸🇪 SE 02 - lei
   - 🇸🇪 SE 03 - lei
   - 🇸🇪 SE 04 - lei
-  - 🇸🇪 SE 05 - lei
-  - 🇸🇪 SE 06 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,7 +62,5 @@ proxy-groups:
   - 🇸🇪 SE 02 - lei
   - 🇸🇪 SE 03 - lei
   - 🇸🇪 SE 04 - lei
-  - 🇸🇪 SE 05 - lei
-  - 🇸🇪 SE 06 - lei
 rules:
 - MATCH,PROXIES
