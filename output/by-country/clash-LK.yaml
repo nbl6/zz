@@ -4,31 +4,26 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇨🇳 CN 01 - lei
+- name: 🇱🇰 LK 01 - lei
   type: vless
-  server: 104.21.91.49
+  server: free.vkehi.store
   port: 443
-  uuid: fc7d2cfe-f5ef-40c8-a848-a0bdc11f6349
+  uuid: e4d1298a-1f21-42e2-a53e-1b22c0645c48
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vpn.cintaku.qzz.io
-  network: ws
-  ws-opts:
-    path: /vlessws
-    headers:
-      Host: vpn.cintaku.qzz.io
+  servername: zoom.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇨🇳 CN 01 - lei
+  - 🇱🇰 LK 01 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇨🇳 CN 01 - lei
+  - 🇱🇰 LK 01 - lei
 rules:
 - MATCH,PROXIES
