@@ -6,20 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇱🇹 LT 01 - lei",
-        "🇱🇹 LT 02 - lei",
-        "🇱🇹 LT 03 - lei",
-        "🇱🇹 LT 04 - lei"
+        "🇱🇰 LK 01 - lei",
+        "🇱🇰 LK 02 - lei",
+        "🇱🇰 LK 03 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇱🇹 LT 01 - lei",
-        "🇱🇹 LT 02 - lei",
-        "🇱🇹 LT 03 - lei",
-        "🇱🇹 LT 04 - lei"
+        "🇱🇰 LK 01 - lei",
+        "🇱🇰 LK 02 - lei",
+        "🇱🇰 LK 03 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
