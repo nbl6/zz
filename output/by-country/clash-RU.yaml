@@ -6,24 +6,24 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - lei
   type: vless
-  server: 104.21.29.38
+  server: 185.178.208.167
   port: 443
-  uuid: 51c5a070-39ff-43fd-ac53-597bb7e7ff3d
+  uuid: 4eebdec5-08eb-4772-a0e6-35fec4c91cb0
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
+  servername: uwugirl.dev
   network: ws
   ws-opts:
-    path: /9dffa10cc2d3b317?ed=2560
+    path: /player/collect/9c8514f9552d/
     headers:
-      Host: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev
+      Host: speakpro.lol
 - name: 🇷🇺 俄罗斯 (Russia) 02 - lei
   type: ss
   server: 130.49.189.158
   port: 43558
   cipher: chacha20-ietf-poly1305
-  password: yZiPrr484OdSYcivDUv+UIygwvyW+HQYytKsIgTw9tU=
+  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
   udp: true
 - name: 🇷🇺 俄罗斯 (Russia) 03 - lei
   type: ss
