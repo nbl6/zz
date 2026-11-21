@@ -6,14 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇫🇮 FI 01 - lei"
+        "🇫🇮 FI 01 - lei",
+        "🇫🇮 FI 02 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇫🇮 FI 01 - lei"
+        "🇫🇮 FI 01 - lei",
+        "🇫🇮 FI 02 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
