@@ -5,12 +5,18 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇰🇷 韩国 (South Korea) 01 - lei
-  type: ss
-  server: 211.233.33.228
-  port: 8388
-  cipher: aes-256-gcm
-  password: qpowi_vip_tunnel_2026_secure
+  type: vless
+  server: 152.69.226.63
+  port: 25555
+  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
   udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 152.69.226.63
 - name: 🇰🇷 韩国 (South Korea) 02 - lei
   type: vless
   server: 152.69.226.63
@@ -65,18 +71,12 @@ proxies:
     headers:
       Host: 152.69.226.63
 - name: 🇰🇷 韩国 (South Korea) 06 - lei
-  type: vless
-  server: 152.69.226.63
-  port: 25555
-  uuid: 27c5483f-17f4-48ae-9a04-def53d88440d
+  type: ss
+  server: 211.233.33.228
+  port: 8388
+  cipher: aes-256-gcm
+  password: qpowi_vip_tunnel_2026_secure
   udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.69.226.63
 - name: 🇰🇷 韩国 (South Korea) 07 - lei
   type: vmess
   server: 129.154.61.196
@@ -113,6 +113,18 @@ proxies:
     path: /
     headers:
       Host: 152.69.226.63
+- name: 🇰🇷 韩国 (South Korea) 10 - lei
+  type: vless
+  server: 130.94.30.242
+  port: 443
+  uuid: ed94398f-893f-40c6-b14c-bf02b5f6be16
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: UT9tFQOdy54SeW_tg-XQN3QkGYoWUpO_88XFXijkrXc
+  servername: navi.bankrate.com
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -127,6 +139,7 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - lei
   - 🇰🇷 韩国 (South Korea) 08 - lei
   - 🇰🇷 韩国 (South Korea) 09 - lei
+  - 🇰🇷 韩国 (South Korea) 10 - lei
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -141,5 +154,6 @@ proxy-groups:
   - 🇰🇷 韩国 (South Korea) 07 - lei
   - 🇰🇷 韩国 (South Korea) 08 - lei
   - 🇰🇷 韩国 (South Korea) 09 - lei
+  - 🇰🇷 韩国 (South Korea) 10 - lei
 rules:
 - MATCH,PROXIES
