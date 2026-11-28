@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇭 TH 01 - lei"
+        "🇧🇷 BR 01 - lei",
+        "🇧🇷 BR 02 - lei",
+        "🇧🇷 BR 03 - lei",
+        "🇧🇷 BR 04 - lei"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇭 TH 01 - lei"
+        "🇧🇷 BR 01 - lei",
+        "🇧🇷 BR 02 - lei",
+        "🇧🇷 BR 03 - lei",
+        "🇧🇷 BR 04 - lei"
       ],
       "url": "https://www.google.com/generate_204"
     },
